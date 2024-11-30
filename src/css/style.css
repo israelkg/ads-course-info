@@ -1,0 +1,311 @@
+/* HEADER */
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+}
+.container-head {
+    padding: 10px 0px;
+    margin: 0px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}   
+.container-head .navigation {
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.container-head .seila {
+    display: flex;
+    align-items: center;
+    width: 800px;
+    color: rgb(234, 230, 230);
+}
+.container-head .seila img {
+    height: 100px;
+    width: 100px;
+}
+.container-head .seila h1 {
+    font-weight: 300;
+    font-size: 36px;
+    margin: 40px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;    
+}
+.menu .nav-btn {
+    border-radius: 10px;
+    border: 0 solid;
+    margin: 0px 20px;
+    padding: 17px;
+    font-size: 27px;
+    color: rgb(226, 223, 223);
+    transition: 0.8s;
+    cursor: pointer;
+    background: none;
+    font-weight: 300;
+    font-family: "Anton", sans-serif;
+    box-shadow: 2.5px 2.5px 5px rgba(189, 189, 189, 0.8);
+}
+.menu .nav-btn:hover {
+    transform: scale(1.2);
+    background-color: #1b3e5f;
+}
+.menu .nav-btn-a {
+    color: rgb(226, 223, 223);
+}
+
+
+
+/* GERAL */
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+section .container {
+    padding: 180px 0px; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+/* HOME */
+.container-home .introduction {
+    width: 53%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(226, 223, 223);
+}
+.container-home .introduction .title {
+    font-size: 75px;
+    text-align: center;
+    margin: 0px;
+}
+.container-home .introduction .paragraph {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 100;
+    margin: 20px 0px;
+}
+
+.container-home .content-overview {
+    padding: 195px 0px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.content-overview .course-overview {
+    width: 70%;
+    padding: 15px 0px;
+    color: rgb(226, 223, 223);
+}
+.content-overview .salary-expect {
+    width: 70%;
+    padding: 15px 0px;
+    color: rgb(226, 223, 223);
+}
+.content-overview .title {
+    font-size: 55px;
+}
+.content-overview .paragraph {
+    font-size: 30px;
+}
+.course-overview li {
+    font-size: 25px;
+    list-style: outside;
+}
+
+.content-salary h1 {
+    font-size: 55px;
+}
+.salary-expect .professional h1 {
+    font-size: 45px;
+}
+.salary-expect .professional li {
+    font-size: 25px;
+    list-style: disc;
+}
+.salary-expect .professional p {
+    font-size: 30px;
+}
+
+
+
+
+/* UTFPR e UFPR */
+section .container-utfpr-ufpr{
+    padding: 20px 0px;
+    color: rgb(226, 223, 223);
+}
+.container .introduction-ufpr-utfpr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(226, 223, 223);
+    padding: 170px 0px;
+}
+.container .introduction-ufpr-utfpr .title-t { color: rgb(42, 126, 165);}
+.container .introduction-ufpr-utfpr .title-u { color: #2e4c68;}
+
+.container .introduction-ufpr-utfpr .title {
+    font-size: 130px;
+    margin: 0px;
+}
+.container .introduction-ufpr-utfpr .subtitle{
+    font-size: 30px;
+    margin: 0px;
+}
+.container .contents {
+    width: 80%;
+    color: rgb(226, 223, 223);
+}
+.container .contents .content-div {
+    margin: 40px 0 0;
+}
+.contents .content-div .divider {
+    border-top: 2px solid #ccc; 
+    margin: 30px 0 0 0;
+    width: 26%;
+}
+.container .contents .btn-title {
+    border: 0;
+    padding: 15px;
+    font-size: 55px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: rgb(226, 223, 223);
+    box-shadow: 3px 3px 5px rgba(189, 189, 189, 0.8);
+    font-family: "Anton", sans-serif;
+}
+.container .contents .btn-t { background-color: rgb(42, 126, 165);}
+.container .contents .btn-u { background-color: #1b3e5f;}
+
+.container-utfpr-ufpr .contents .paragraph { font-size: 25px;}
+.container-utfpr-ufpr .contents li {
+    font-size: 25px;
+    list-style: circle;
+}
+
+.contents .content-div .text-grid {
+    width: 100%;
+    display: grid;
+    color: rgb(226, 223, 223);
+    backdrop-filter: blur(5px);
+    grid-template-columns: repeat(3, 1fr);
+    box-shadow: 10px 10px 10px rgba(189, 189, 189, 0.8);
+}
+
+
+
+/* TEXTO ADICIONADO */
+.content-div section .div-add {
+    margin: 5px;
+    padding: 20px 0 ;
+    box-shadow: 10px 10px 10px rgba(189, 189, 189, 0.8);
+}
+.content-div section .div-add .paragraph {
+    font-size: 32px;
+}
+.text-grid .anos {
+    padding: 10px;
+}
+.text-grid .anos h1 {
+    font-size: 40px;
+}
+.text-grid .anos li {
+    font-size: 25px;
+    list-style: disc;
+}
+.text-loca .locali {
+    margin: 5px;
+    padding: 20px;
+}
+.contents .content-div li {
+    list-style: disc;
+}
+ 
+
+/* DIVIDER */
+.divider-section {
+    border-top: 2px solid #ccc; 
+    margin: 50px 0 0 0;
+    width: 40%;
+}
+.divider-home {
+    border-top: 2px solid #ccc; 
+    width: 30%;
+}
+.contents .content-div .divider {
+    border-top: 2px solid #ccc; 
+    margin: 30px 0 0 0;
+    width: 26%;
+}
+.divider-facul {
+    border-top: 2px solid #ccc; 
+    margin: 0px 0 0 0;
+    width: 20%;
+}
+
+
+
+
+
+/* JOGO e Site*/
+
+.container-game .introduction {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(226, 223, 223);
+}
+.container-game .introduction .title {
+    font-size: 130px;
+    margin: 0;
+    /* text-decoration: underline; */
+}
+.container-game .introduction .subtitle{
+    font-size: 30px;
+    margin: 0;
+}
+
+.container-game section {
+    margin-top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    border: 1px solid white;
+}
+section .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 0;
+    margin: 50px 50px 0;
+}
+section .content h1{
+    font-size: 50px;
+    background-color: #1b3e5f;
+    border-radius: 12px;
+    padding: 15px;
+    color: rgb(226, 223, 223);
+}

@@ -1,0 +1,120 @@
+
+@media (max-width: 800px) {
+
+    /* CABEÇALHO */
+    .container-head .navigation {
+       height: 20px; 
+    }
+    .menu .nav-btn {
+        margin: 0px 20px 0 2px;
+        padding: 12px;
+        font-size: 17px;
+    }
+    .container-head .seila {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: rgb(234, 230, 230);
+    }
+    .container-head .seila .logo {
+        height: 80px;
+        width: 80px;
+    }
+    .container-head .seila h1 {
+        font-weight: 300;
+        font-size: 22px;
+        margin-left: 0px;
+        width: 270px;
+    }
+
+
+    /* GERAL */
+    section .container {
+        padding: 90px 0px; 
+    }
+
+
+    /* HOME */
+    .container-home .introduction .paragraph {
+        font-size: 15px;
+    }
+    .container-home .introduction .title {
+        font-size: 42px;
+    }
+    .divider-section {
+        margin: 10px 0 0 0;
+        width: 40%;
+    }
+    .container-home .content-overview {
+        padding: 100px 0px ;
+    }
+    
+    .content-overview .course-overview { width: 75%;}
+    .content-overview .title { font-size: 33px;}
+    .content-overview .paragraph { font-size: 15px;}
+    .course-overview li { font-size: 13px;}
+    
+    .content-overview .salary-expect { width: 75%;}
+    .content-salary h1 { font-size: 33px;}
+    .salary-expect .professional h1 { font-size: 25px;}
+    .salary-expect .professional p { font-size: 15px;}
+    .salary-expect .professional li { font-size: 13px; list-style: disc; }
+
+
+    /* UTFPR E UFPR */
+    .container .introduction-ufpr-utfpr{
+        padding: 0px;
+        margin: 0px 0px 125px;
+    }
+    .container .introduction-ufpr-utfpr .title {
+        font-size: 70px;
+        padding: 0px 0px 30px;
+    }
+    .container .contents {
+        width: 80%;
+    }
+    .contents .content-div .divider {
+        margin: 15px 0 0 0;
+        width: 30%;
+    }
+    .container .contents .btn-title {
+        border: 0;
+        font-size: 25px;
+    }
+    .text-grid .anos h1 {
+        font-size: 18px;
+    }
+    .text-grid .anos li {
+        font-size: 50px;
+    }
+    .container-utfpr-ufpr .contents li {
+        font-size: 13px;
+        margin: 0px 5px 0 0;
+        list-style: disc;
+    }
+    .content-div section .div-add .paragraph {
+        font-size: 15px;
+    }
+
+    
+    /* JOGO */
+    .container-game .introduction .title { font-size: 70px;}
+    .container-game .introduction .subtitle{ font-size: 20px;}
+    .container-game .contents { width: 80%;}
+    .container-game section { margin-top: 200px;}
+    
+    .contents section .content{
+        padding: 20px 0;
+        margin: 20px 20px 0;
+    }
+    .contents section .content h1{
+        font-size: 30px;
+        padding: 15px;
+        border-radius: 12px;
+        background-color: #1b3e5f;
+    }
+    video {
+        width: 600px;
+        height: 300px;
+    }
+}
