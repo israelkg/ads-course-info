@@ -40,10 +40,10 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar
 ## Instalação
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/israelkg/curso-ads.git
+    git clone https://github.com/israelkg/ads-course-info.git
     ```
 2. Navegue até o repositório:
     ```bash
-    cd curso-ads
+    cd ads-course-info
     ```
 3. Abra o arquivo `index.html` em seu navegador.
